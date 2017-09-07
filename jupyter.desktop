@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+
+Type=Application
+MimeType=application/x-jupyter
+
+Name=Jupyter Notebook
+
+Comment=Interface for Jupyter Notebooks
+
+#Path to an executable file on disk used to determine if the program is actually installed.
+TryExec=jupyterOpen.sh
+
+#Program to execute, possibly with arguments.
+Exec=jupyterOpen.sh '%f'
+
+#Whether the program runs in a terminal window.
+Terminal=false
